@@ -1,0 +1,140 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GalionsChestofCunningContraptions",
+				"abbreviation": "GCCC",
+				"full": "Galion's Chest of Cunning Contraptions",
+				"url": "",
+				"authors": [
+					"Galion_Lightbringer"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1615490450,
+		"dateLastModified": 1615490450
+	},
+	"monster": [
+		{
+			"name": "Redbrand Warlock",
+			"isNpc": true,
+			"source": "GalionsChestofCunningContraptions",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d6 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 14,
+			"int": 15,
+			"wis": 9,
+			"cha": 16,
+			"skill": {
+				"arcana": "+4",
+				"deception": "+5",
+				"persuasion": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"cr": "1/2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The warlock's spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+					],
+					"footerEntries": [
+						"*See \\\"Actions\\\" below."
+					],
+					"will": [
+						"{@spell eldritch blast}",
+						"{@spell mage hand}",
+						"{@spell shocking grasp}*"
+					],
+					"daily": {
+						"3": [
+							"{@spell silent image}"
+						],
+						"1e": [
+							"{@spell chromatic orb}",
+							"{@spell crown of madness}",
+							"{@spell shield}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Prone to Possession",
+					"entries": [
+						"When the warlock is reduced below half it's hitpoints (16 or less), it must make a {@dc 15} charisma saving throw. If they fail, they are possessed by Mammok and transform into a {@creature Nergaliid|EGW} that is under Mammok's control. This transformation is permanent. It must repeat this saving throw at the beginning of each of it's turns that it starts with 16 hitpoints or less."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shocking Grasp (Cantrip)",
+					"entries": [
+						"{@atk ms} {@hit 5} to hit (with advantage on the attack roll if the target is wearing armor made of metal), reach 5 ft., one creature. {@h}4 ({@damage 1d8}) lightning damage, and the target can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Eldritch Blast (Cantrip",
+					"entries": [
+						"{@atk rs} {@hit 5} to hit, range 120 ft., one creature. {@h}5 ({@damage 1d10}) force damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/BGDIA/Black Gauntlet of Bane.png?v=1.123.0",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"damageTags": [
+				"L",
+				"O"
+			],
+			"spellcastingTags": [
+				"CL"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"hasFluffImages": true
+		}
+	]
+}

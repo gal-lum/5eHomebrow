@@ -1,0 +1,170 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MonsterManualExpanded",
+				"abbreviation": "MME",
+				"full": "Monster Manual Expanded",
+				"version": "1.0.0",
+				"url": "https://www.dmsguild.com/product/267678/Monster-Manual-Expanded-5E",
+				"authors": [
+					"Dragonix"
+				],
+				"convertedBy": [
+					"Darkfalli",
+					"Spappz"
+				],
+				"color": "BD7044"
+			}
+		],
+		"dateAdded": 1579291901,
+		"dateLastModified": 1616041483
+	},
+	"monster": [
+		{
+			"name": "Vebshi, Nezzna's apprentice",
+			"source": "GalionsChestofCunningContraptions",
+			"page": 200,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d6 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 8,
+			"wis": 11,
+			"cha": 12,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Elven"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The xvart's innate spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell mage armor} (self only)"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"2": {
+							"lower": 1,
+							"slots": 2,
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell expeditious retreat}",
+								"{@spell invisibility}",
+								"{@spell scorching ray}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Cunning",
+					"entries": [
+						"Vebshi can take the Disengage action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "The Odds are in My Favor",
+					"entries": [
+						"Vebshi has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"underdark"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I",
+				"CL"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://s3.amazonaws.com/files.d20.io/images/214074594/7k7FtEAwCvmdQ-CKD4ysiA/max.png?1617845653",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/CoS/Rahadin.png?v=1.125.3"
+						}
+					}
+				]
+			}
+		}
+	]
+}

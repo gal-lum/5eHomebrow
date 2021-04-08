@@ -136,8 +136,6 @@
 			],
 			"hasFluffImages": true
 		}
-	]
-	"monster": [
 		{
 			"name": "Vebshi, Nezzna's apprentice",
 			"source": "GalionsChestofCunningContraptions",
@@ -278,7 +276,10 @@
 						"href": {
 							"type": "external",
 							"url": "https://5e.tools/img/CoS/Rahadin.png?v=1.125.3"
-			
+						}
+					}
+				]
+			}
 		}
 	]
 }

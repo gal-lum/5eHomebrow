@@ -197,7 +197,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The xvart's innate spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:"
+						"Vebshi's spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -209,7 +209,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+						"Vebshi is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
 					],
 					"spells": {
 						"0": {

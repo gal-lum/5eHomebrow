@@ -153,7 +153,6 @@
 		{
 			"name": "Vebshi, Nezzna's apprentice",
 			"source": "GalionsChestofCunningContraptions",
-			"page": 200,
 			"size": "M",
 			"type": "humanoid",
 			"alignment": [
@@ -295,6 +294,69 @@
 				]
 			},
 			"uniqueId": "31f3b8a5285e2d210778cdc00f5c3b32"
+		}
+	]
+	"item": [
+		{
+			"name": "Metamagic prism",
+			"source": "GCCC",
+			"rarity": "rare",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 0.5,
+			"recharge": "dawn",
+			"charges": 3,
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"This curious contraption includes three crystals, set inside gold rings, which are connected to a central ring. The prism can be attached to any spellcasting focus. It has three charges. When a spell is cast by a caster that is wielding a spellcasting focus with the prism attached, they can expend a charge to engage one of the crystals as part of the casting of the spell:",
+				{
+					"type": "list",
+					"items": [
+						"Gem of shifting elements. A round crystal that changes colors in response to the attuned caster’s thoughts or emotions. When engaged during the casting a spell that deals a type of damage from the following list, that damage type can be changed to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
+						"Temporal distortion shard. A crystal shard with a rough surface, with small silvery flakes that glisten from the inside. Looking through it, the image becomes distorted - not only spatially, but also temporally, as the world seems to slightly speed up or slow down at times. When engaged during the casting of a spell that has a casting time of 1 action, you can change the casting time to 1 bonus action for this casting."
+						"Dampening stone. A greyish, opaque crystal that almost seems to suck the color out of its immediate surroundings. When engaged during the casting of a spell, the verbal and somatic components of that spell can be ignored."
+					]
+				}
+				"The prism regains 1d4 charges at dawn. It cannot have more than 3 charges at any given time.",
+			],
+			
+		}
+		{
+			"name": "Wrappings of Ki Reversal",
+			"source": "GCCC",
+			"rarity": "rare",
+			"reqAttune": "by a monk",
+			"reqAttuneTags": [
+				{
+					"class": "monk"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"These wrappings can be incorporated into garments or weapons. They allow a monk who attunes to them to target their foe’s ki and disrupt or manipulate it. The wrappings have 3 charges. As a bonus action, the wielder may expend a charge and prepare to use the wrappings as part of their next attack (every monk may use them to attack or as part of an attack in a different way - be creative!). The next time the wielder hits a creature with a monk weapon or unarmed strike, they may choose one of the following options; Saving throws are made against the wearer’s Ki save DC:",
+				{
+					"type": "list",
+					"items": [
+						"Block the flow. Roll the attack’s damage die one additional time. The target is dealt necrotic damage equal to the number rolled. The target must also make a Strength saving throw or be restrained. At the end of each of the target’s turns, they may repeat the saving throw, ending the effect on a success. The target may also stabilize their stance as an action and end the effect automatically.",
+						"Change the course. Roll the attack’s damage die one additional time. The target is dealt force damage equal to the number rolled. The target must also make a Constitution saving throw or be pushed 10 feet away from the wielder and knocked prone.",
+						"Darken the mind. Roll the attack’s damage die one additional time. The target is dealt psychic damage equal to the number rolled. The target must also make a Wisdom saving throw or be frightened of the wielder. At the end of each of the target’s turns, they may repeat the saving throw, ending the effect on a success. The target may also regain their composure as an action and end the effect automatically.",
+					]
+				}
+				"It is not possible to prepare more than one effect at a time.",
+				"The wrappings regain 1d4 charges at dawn. The wielder may also expend one Ki point as a free action to add one charge to them. The wrappings cannot have more than 3 charges at any given time.",
+
+			],
+			
 		}
 	]
 }

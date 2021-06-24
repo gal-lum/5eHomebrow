@@ -295,7 +295,7 @@
 			},
 			"uniqueId": "31f3b8a5285e2d210778cdc00f5c3b32"
 		}
-	]
+	],
 	"item": [
 		{
 			"name": "Metamagic prism",
@@ -327,7 +327,7 @@
 				"The prism regains 1d4 charges at dawn. It cannot have more than 3 charges at any given time.",
 			],
 			
-		}
+		},
 		{
 			"name": "Wrappings of Ki Reversal",
 			"source": "GCCC",
@@ -355,7 +355,7 @@
 				"It is not possible to prepare more than one effect at a time.",
 				"The wrappings regain 1d4 charges at dawn. The wielder may also expend one Ki point as a free action to add one charge to them. The wrappings cannot have more than 3 charges at any given time.",
 
-			],
+			]
 			
 		}
 	]

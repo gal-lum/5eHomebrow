@@ -294,7 +294,7 @@
 				]
 			},
 			"uniqueId": "31f3b8a5285e2d210778cdc00f5c3b32"
-		}
+		},
 	],
 	"item": [
 		{
@@ -320,12 +320,12 @@
 					"type": "list",
 					"items": [
 						"Gem of shifting elements. A round crystal that changes colors in response to the attuned caster’s thoughts or emotions. When engaged during the casting a spell that deals a type of damage from the following list, that damage type can be changed to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
-						"Temporal distortion shard. A crystal shard with a rough surface, with small silvery flakes that glisten from the inside. Looking through it, the image becomes distorted - not only spatially, but also temporally, as the world seems to slightly speed up or slow down at times. When engaged during the casting of a spell that has a casting time of 1 action, you can change the casting time to 1 bonus action for this casting."
+						"Temporal distortion shard. A crystal shard with a rough surface, with small silvery flakes that glisten from the inside. Looking through it, the image becomes distorted - not only spatially, but also temporally, as the world seems to slightly speed up or slow down at times. When engaged during the casting of a spell that has a casting time of 1 action, you can change the casting time to 1 bonus action for this casting.",
 						"Dampening stone. A greyish, opaque crystal that almost seems to suck the color out of its immediate surroundings. When engaged during the casting of a spell, the verbal and somatic components of that spell can be ignored."
 					]
-				}
-				"The prism regains 1d4 charges at dawn. It cannot have more than 3 charges at any given time.",
-			],
+				},
+				"The prism regains 1d4 charges at dawn. It cannot have more than 3 charges at any given time."
+			]
 			
 		},
 		{
@@ -349,11 +349,11 @@
 					"items": [
 						"Block the flow. Roll the attack’s damage die one additional time. The target is dealt necrotic damage equal to the number rolled. The target must also make a Strength saving throw or be restrained. At the end of each of the target’s turns, they may repeat the saving throw, ending the effect on a success. The target may also stabilize their stance as an action and end the effect automatically.",
 						"Change the course. Roll the attack’s damage die one additional time. The target is dealt force damage equal to the number rolled. The target must also make a Constitution saving throw or be pushed 10 feet away from the wielder and knocked prone.",
-						"Darken the mind. Roll the attack’s damage die one additional time. The target is dealt psychic damage equal to the number rolled. The target must also make a Wisdom saving throw or be frightened of the wielder. At the end of each of the target’s turns, they may repeat the saving throw, ending the effect on a success. The target may also regain their composure as an action and end the effect automatically.",
+						"Darken the mind. Roll the attack’s damage die one additional time. The target is dealt psychic damage equal to the number rolled. The target must also make a Wisdom saving throw or be frightened of the wielder. At the end of each of the target’s turns, they may repeat the saving throw, ending the effect on a success. The target may also regain their composure as an action and end the effect automatically."
 					]
-				}
+				},
 				"It is not possible to prepare more than one effect at a time.",
-				"The wrappings regain 1d4 charges at dawn. The wielder may also expend one Ki point as a free action to add one charge to them. The wrappings cannot have more than 3 charges at any given time.",
+				"The wrappings regain 1d4 charges at dawn. The wielder may also expend one Ki point as a free action to add one charge to them. The wrappings cannot have more than 3 charges at any given time."
 
 			]
 			
